@@ -2,13 +2,13 @@
 2 nombre, x(100)[{A-Z},{a-z},BS]
 3 apellido,x(100)[{A-Z},{a-z},BS]
 4 nacimiento,i(0-n)
-5edad,i(0-n)
+5 edad,i(0-n)
 6 contador,i(0-n) <-- 0
 7 carrera,x(100)[{A-Z},{a-z},BS]
 8 reporte,x(5000)[{A-Z},{0-9},{a-z},BS] <-- " "
 9  Haga_hasta
-10        <<"Ingrese el nombre del estudiante"
-11        >>nombre
+10      <<"Ingrese el nombre del estudiante"
+11      >>nombre
 12	<<"Ingrese el apellido del estudiante"
 13	>>apellido
 14	<<"Ingrese el año de nacimiento del estudiante"
@@ -22,4 +22,4 @@
 22 Fin Haga_Hasta(contador = 1) 
 23 <<"----- REPORTE DE ESTUDIANTES------"
 24 <<reporte
-
+25 Fin
